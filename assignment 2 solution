@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport"content="width=devivce-width, initial-scale=1">
+<title><h1>Our Menu<\h1><\title>
+<style>
+body{
+  margin: 0;
+  padding: 0;
+}
+* {
+ box-sizing: border-box;
+}
+#box {
+  background-colour: blue;
+  border: 3px solid black;
+}
+h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div#content {
+  background-color: white;
+  position: relative;
+  top: 20px;
+}
+p {
+  width: 70%;
+  height: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px 15px 15px 15px;
+}
+#p1{
+  background-colour: pink;
+  position: relative;
+  top: 65px;
+  left: 10px;
+    #p4{
+      width: 10px;
+      height: 5px;
+      background-colour: white;
+      position: relative;
+      top: -25px;
+      right: -60px;
+       } 
+}
+#p2{
+   background-colour: red;
+   position: relative;
+     #p5{
+      width: 10px;
+      height: 5px;
+      backgroun colour: white;
+      position: relative;
+      top: -25px;
+      right: -60px;
+         }
+}
+#p3{
+   background-colour: yellow;
+   position: relative;
+    #p6{
+      width: 10px;
+      height: 5px;
+      backgrond colour: white;
+      position: relative;
+      top: -25px;
+      right: -60px;
+       } 
+} 
+ @media (min-width: 992px){
+  float: left;
+ #p1{
+    width: 33.33%
+    }  
+ #p2{
+    width: 33.33%
+    }  
+ #p3{
+    width: 33.33%
+    }  
+}
+ @media (min-width: 768px)
+        (max-width: 991px){
+  float: left;
+#p1{
+    width: 50%
+    }  
+ #p2{
+    width: 50%
+    }  
+ #p3{
+    width: 100%
+    } 
+}
+@media (max-width: 767){
+  float: left;
+#p1{
+    width: 100%
+    }  
+ #p2{
+    width: 100%
+    }  
+ #p3{
+    width: 100%
+    } 
+}
+</style>
+</head>
+<body>
+ <div id="content">
+  <p id="p1">lorem ipsum dolar sit omet, consectetur adipiscing elt, sed do eiusmod tempor incididunt ut 
+   lempor tempor indidunt ul lcbore et dolore manga aliqua. Ut enim ad minim veniam, quia nostrud 
+   exencitaion ulomco loboris nisi ut alquip ex eo </p1>
 
+  <p id="p2">lorem ipsum dolar sit omet, consectetur adipiscing elt, sed do eiusmod tempor incididunt ut 
+   lempor tempor indidunt ul lcbore et dolore manga aliqua. Ut enim ad minim veniam, quia nostrud 
+   exencitaion ulomco loboris nisi ut alquip ex eo</p2>
+
+  <p id="p3">lorem ipsum dolar sit omet, consectetur adipiscing elt, sed do eiusmod tempor incididunt ut 
+   lempor tempor indidunt ul lcbore et dolore manga aliqua. Ut enim ad minim veniam, quia nostrud 
+   exencitaion ulomco loboris nisi ut alquip ex eo commodo consequet.</p3>
+  <p id="p4">Chicken</p4>
+  <p id="p5">Beef</p5>
+  <p id="p6">Sushi</p6>
+</div>
+</body>
+</html>
+  
+  
